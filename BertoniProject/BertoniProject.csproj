@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bertoni.BL\Bertoni.BL.csproj" />
+    <ProjectReference Include="..\Bertoni.Contracts\Bertoni.Contracts.csproj" />
+    <ProjectReference Include="..\Bertoni.Entities\Bertoni.Entities.csproj" />
+    <ProjectReference Include="..\Bertoni.Services\Bertoni.Services.csproj" />
+    <ProjectReference Include="..\Bertoni.Utilities\Bertoni.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
